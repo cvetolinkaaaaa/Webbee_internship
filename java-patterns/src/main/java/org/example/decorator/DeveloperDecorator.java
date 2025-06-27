@@ -1,4 +1,4 @@
-package org.example;
+package org.example.decorator;
 
 public class DeveloperDecorator implements Developer {
 
