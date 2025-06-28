@@ -6,8 +6,14 @@ import org.webbee.observer.SubjectImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Тест для проверки работы паттерна "Наблюдатель".
+ */
 class SubjectImplTest {
 
+    /**
+     * Проверяет, что все подписанные наблюдатели получают уведомления.
+     */
     @Test
     void observersReceiveMessages() {
         SubjectImpl subject = new SubjectImpl();
@@ -26,6 +32,9 @@ class SubjectImplTest {
         assertEquals("Hello Observers!", observer2.getReceivedMessages().get(0));
     }
 
+    /**
+     * Проверяет, что отписанный наблюдатель не получает новые уведомления.
+     */
     @Test
     void detachedObserverDoesNotReceiveMessages() {
         SubjectImpl subject = new SubjectImpl();
