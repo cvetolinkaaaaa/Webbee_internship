@@ -8,8 +8,14 @@ import org.webbee.abstract_fabric.interfaces.Package;
 import org.webbee.abstract_fabric.interfaces.Delivery;
 import org.webbee.abstract_fabric.interfaces.ShopFactory;
 
+/**
+ * Тесты для фабрики ShopFactory и связанных продуктов.
+ */
 public class ShopFactoryTest {
 
+    /**
+     * Проверяет, что ElectronicsFactory создаёт правильную упаковку и доставку.
+     */
     @Test
     public void testElectronicsFactory() {
         ShopFactory factory = new ElectronicsFactory();
@@ -20,6 +26,9 @@ public class ShopFactoryTest {
         Assertions.assertEquals("Доставка курьером", delivery.deliver());
     }
 
+    /**
+     * Проверяет, что ClothesFactory создаёт правильную упаковку и доставку.
+     */
     @Test
     public void testClothesFactory() {
         ShopFactory factory = new ClothesFactory();
