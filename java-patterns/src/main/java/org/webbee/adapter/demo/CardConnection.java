@@ -16,7 +16,7 @@ public final class CardConnection {
     private CardConnection() {
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         MemoryCardAdapter memoryCardAdapter =
                 new MemoryCardAdapter(new MemoryCard());
         memoryCardAdapter.connectViaUsb();
