@@ -1,4 +1,4 @@
-package org.example.proxy;
+package org.webbee.proxy;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,7 +6,6 @@ import org.apache.logging.log4j.Logger;
 /**
  * Класс ProxyService реализует паттерн Proxy.
  */
-
 public class ProxyService implements Service {
 
     private static final Logger LOGGER = LogManager.getLogger(ProxyService.class);

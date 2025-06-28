@@ -1,4 +1,7 @@
-package org.example.proxy;
+package org.webbee.proxy.demo;
+
+import org.webbee.proxy.ProxyService;
+import org.webbee.proxy.Service;
 
 public final class MessengerExample {
 

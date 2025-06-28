@@ -1,4 +1,4 @@
-package org.example.proxy;
+package org.webbee.proxy;
 
 /**
  * Интерфейс для абстрактного сервиса.
