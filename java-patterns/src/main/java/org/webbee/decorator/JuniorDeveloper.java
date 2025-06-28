@@ -1,4 +1,4 @@
-package org.example.decorator;
+package org.webbee.decorator;
 
 /**
  * Класс, представляющий младшего разработчика.

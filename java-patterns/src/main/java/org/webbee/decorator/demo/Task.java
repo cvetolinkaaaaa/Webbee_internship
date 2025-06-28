@@ -1,4 +1,9 @@
-package org.example.decorator;
+package org.webbee.decorator.demo;
+
+import org.webbee.decorator.Developer;
+import org.webbee.decorator.JuniorDeveloper;
+import org.webbee.decorator.SeniorDeveloper;
+import org.webbee.decorator.TeamLeadDeveloper;
 
 /**
  * Класс для демонстрации работы паттерна "Декоратор" с разработчиками.

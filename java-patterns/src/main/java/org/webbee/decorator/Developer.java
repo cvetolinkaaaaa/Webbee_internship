@@ -1,4 +1,4 @@
-package org.example.decorator;
+package org.webbee.decorator;
 
 /**
  * Интерфейс Developer представляющий разработчика, который может выполнить задачи по написанию кода.
