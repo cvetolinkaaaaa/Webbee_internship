@@ -1,4 +1,4 @@
-package org.example.adapter;
+package org.webbee.adapter;
 
 /**
  * Класс, представляющий карту памяти.

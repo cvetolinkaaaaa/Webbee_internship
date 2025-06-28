@@ -1,4 +1,8 @@
-package org.example.adapter;
+package org.webbee.adapter.demo;
+
+import org.webbee.adapter.MemoryCard;
+import org.webbee.adapter.MemoryCardAdapter;
+import org.webbee.adapter.USB;
 
 /**
  * Класс для демонстрации работы паттерна "Адаптер".

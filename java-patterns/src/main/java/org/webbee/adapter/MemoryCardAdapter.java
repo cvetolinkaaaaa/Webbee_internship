@@ -1,4 +1,4 @@
-package org.example.adapter;
+package org.webbee.adapter;
 
 /**
  * Адаптер, позволяющий использовать {@link MemoryCard} как USB-устройство.
